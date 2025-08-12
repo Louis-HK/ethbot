@@ -1,0 +1,14 @@
+[Unit]
+Description=Ethereum Sweeper Bot
+After=network.target
+
+[Service]
+User=ethbot
+WorkingDirectory=/opt/ethbot
+EnvironmentFile=/etc/ethbot.env
+ExecStart=/usr/bin/node /opt/ethbot/bot.js
+Restart=on-failure
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target

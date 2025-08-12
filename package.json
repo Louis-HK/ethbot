@@ -1,0 +1,15 @@
+{
+  "name": "ethbot",
+  "version": "1.0.0",
+  "description": "Ethereum Sweeper Bot - secure and minimal",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Louis",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "ethers": "^6.15.0"
+  }
+}
