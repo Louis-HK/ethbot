@@ -9,7 +9,19 @@
   "author": "Louis",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^17.2.0",
-    "ethers": "^6.15.0"
-  }
+    "basic-auth": "^2.0.1",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.1",
+    "ethers": "^6.15.0",
+    "express": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Louis-HK/ethbot.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Louis-HK/ethbot/issues"
+  },
+  "homepage": "https://github.com/Louis-HK/ethbot#readme"
 }
